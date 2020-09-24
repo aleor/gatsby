@@ -4,8 +4,8 @@ import Layout from '../components/layout';
 
 const SecondPage = () => (
   <Layout>
-    <h2>Page 2</h2>
-    <Link to="/">Home page</Link>
+    <h2>This is About page.</h2>
+    <Link to="/">To Home page</Link>
   </Layout>
 );
 
