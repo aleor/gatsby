@@ -1,6 +1,7 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import Layout from '../components/layout';
+import PostPreview from '../components/post-preview';
 import usePosts from '../hooks/usePosts';
 
 const Index = () => {
@@ -10,9 +11,9 @@ const Index = () => {
     <Layout>
       <h2>Hi all, fancy title here</h2>
       <hr></hr>
-      <h3>Blog posts:</h3>
+      <h3>Blog posts</h3>
       {posts.map(post => (
-        <pre>{JSON.stringify(post, null, 2)}</pre>
+        <PostPreview key={post.slug} post={post} />
       ))}
     </Layout>
   );
