@@ -15,6 +15,10 @@ const NavLink = styled(Link)`
   &.current-page {
     border-bottom: 2px solid #222;
   }
+
+  &:last-of-type {
+    margin-right: 0;
+  }
 `;
 
 const Header = () => (
