@@ -38,8 +38,8 @@ const PostPreview = ({ post }) => (
       <h4>
         <Link to={post.slug}>{post.title}</Link>
       </h4>
-      <p>{post.excerpt}</p>
-      <ReadLink to={post.slug}>read the post &rarr;</ReadLink>
+      <p>{`${post.excerpt.substring(0, 50)}...`}</p>
+      <ReadLink to={post.slug}>read post &rarr;</ReadLink>
     </div>
   </article>
 );
