@@ -6,7 +6,7 @@ const ImageBackground = styled('div')`
   background-image: url('/images/background-1.jpg');
   background-position: top 20% center;
   background-size: cover;
-  height: 30vh;
+  height: 40vh;
 
   + * {
     margin-top: 0;
@@ -42,7 +42,7 @@ const Hero = () => {
   return (
     <ImageBackground>
       <TextBox>
-        <h2>Fancy title here</h2>
+        <h2>Gatsby playground</h2>
         <p>
           Go to <Link to="/about">About</Link> page &rarr;
         </p>
