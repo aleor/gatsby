@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 const SecondPage = () => (
   <Layout>
     <h4>
-      Gatsvy playground for: components, MDX, hooks, images (via gatsby
+      Gatsby playground for: components, MDX, hooks, images (via gatsby
       plugins).
     </h4>
     <hr />
